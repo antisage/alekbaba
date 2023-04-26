@@ -5,7 +5,7 @@ interface CollapsibleButtonProps {
   children: React.ReactNode;
 }
 
-let buttonStyle = {
+const buttonStyle = {
   color: 'rgb(180, 180, 180)',
   cursor: 'pointer',
   padding: '18px',
