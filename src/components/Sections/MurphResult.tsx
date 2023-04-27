@@ -1,27 +1,23 @@
 import React, { FC } from 'react';
 
-interface Murph {
+interface MurphResult {
   title: string;
-  location: string;
-  time: string;
   imageUrl: string;
   details: string[];
 }
 
-const Murph: FC<Murph> = ({ title, location, time, imageUrl, details }) => {
+const MurphResult: FC<MurphResult> = ({ title, imageUrl, details }) => {
   return (
-    <div className="grid-container">
-      <div className="grid-box box-1">
-        <div className="info">
-        <h2><u>{title}</u></h2>
-        <h3>{location}</h3>
-        <h3>{time}</h3>
+    <div className="grid-container2">
+      <div className="grid-box2 box-12">
+        <div className="info2">
+        <h2>{title}</h2>
         </div>
-        <div className="img1">
-          <img src={imageUrl} alt="Placeholder" />
+        <div className="img2">
+        <img src={imageUrl} alt="Placeholder" />
         </div>
       </div>
-      <div className="grid-box box-2">
+      <div className="grid-box2 box-22">
         <ul>
           {details.map(detail => (
             <li key={detail}>{detail}</li>
@@ -29,35 +25,32 @@ const Murph: FC<Murph> = ({ title, location, time, imageUrl, details }) => {
         </ul>
       </div>
       <style>{`
-
-        .img1{
+        .img2{
           width: 26em;
-          height: 10em;
-          object-fit: cover;
         }
-        .info{
+        .info2{
           text-align: center;
           color: white;
           font-size: 2em;
         }
-        .grid-container {
+        .grid-container2 {
           padding: 55px;
           display: flex;
           flex-wrap: wrap;
-          justify-content: left;
+          justify-content: right;
         }
         
-        .grid-box {
+        .grid-box2 {
           border: 1px solid black;
           padding: 20px;
         }
         
-        .box-1 {
+        .box-12 {
           grid-row: 1;
           grid-column: 1 / span 2;
         }
         
-        .box-2 {
+        .box-22 {
           grid-row: 2;
           grid-column: 1 / span 1;
           display: flex;
@@ -68,4 +61,4 @@ const Murph: FC<Murph> = ({ title, location, time, imageUrl, details }) => {
   );
 };
 
-export default Murph;
+export default MurphResult;
