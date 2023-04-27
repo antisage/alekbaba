@@ -33,7 +33,7 @@ const Home: FC = memo(() => {
           location="Zoo Health Gym, Roswell"
           time="April 15, 11:30"
           imageUrl="bonus2-min.png"
-          details={["1 Mile Run","x25 Deadlifts","x25 Pull-Ups","Barbell Press to Failure +15","Weighted Squats to Failure"]}
+          details={["1 Mile Run","x25 Deadlifts","x25 Pull-Ups","Dumbell Press to Failure +15","Weighted Squats to Failure"]}
         />
         <div className='test-down'>
           <MurphResult
