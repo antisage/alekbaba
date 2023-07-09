@@ -13,7 +13,7 @@ const Scoreboard = () => {
             <div className="name">Long</div>
           </div>
           <div id="score-container">
-            <div id="alek-score" className="score">2</div>
+            <div id="alek-score" className="score">3</div>
             <div id="long-score" className="score">4</div>
           </div>
           <div id="upcoming-comp">
@@ -43,6 +43,9 @@ const Scoreboard = () => {
               </div>
               <div className="comp-row">
                 08/20/22 - Billiards: LONG WINS
+              </div>
+              <div className="comp-row">
+                06/23/23 - ALEK WINS 2-1
               </div>
             </div> 
             </CollapsibleButton>
