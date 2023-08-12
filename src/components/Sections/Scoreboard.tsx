@@ -45,7 +45,7 @@ const Scoreboard = () => {
                 08/20/22 - Billiards: LONG WINS
               </div>
               <div className="comp-row">
-                06/23/23 - ALEK WINS 2-1
+                06/23/23 - Smash Bros: ALEK WINS 2-1
               </div>
             </div> 
             </CollapsibleButton>
