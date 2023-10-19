@@ -46,12 +46,12 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Java',
-        level: 7,
+        level: 8.5,
         color: '#2d6a9a'
       },
       {
         name: 'Javascript',
-        level: 8.8,
+        level: 8,
         color: '#2d6a9a'
       },
       {
@@ -66,7 +66,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 8,
+        level: 6.8,
         color: '#2d6a9a'
       },
       {
@@ -75,13 +75,13 @@ export const skills: SkillGroup[] = [
         color: '#2d6a9a'
       },
       {
-        name: 'Node.js',
-        level: 7,
+        name: 'Spring Boot',
+        level: 7.5,
         color: '#2d6a9a'
       },
       {
-        name: 'Spring Boot',
-        level: 6,
+        name: 'NodeJS',
+        level: 6.5,
         color: '#2d6a9a'
       },
     ],
@@ -121,7 +121,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Chess',
-        level: 9.7,
+        level: 9.1,
         color: '#2d6a9a'
       },
       {
@@ -134,7 +134,7 @@ export const skills: SkillGroup[] = [
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Resume section
  */
 export const education: TimelineItem[] = [
   {
@@ -155,7 +155,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'May 2022 - Present',
+    date: 'May 2022 - June 2023',
     school: 'T-Mobile',
     location: 'Atlanta, GA',
     title: 'Software Developer',
@@ -165,6 +165,7 @@ export const experience: TimelineItem[] = [
           <li>• Used Spring Boot to develop APIs needed for business.</li>
           <li>• Worked with Java to develop back-end REST service for applications.</li>
           <li>• Used Kubernetes to automate the deployment of containers.</li>
+          <li>• Used AWS products such as RedShift, DynamoDB, EC2, S3 to build/run projects.</li>
         </ul>
     ),
   },
