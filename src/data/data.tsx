@@ -138,7 +138,7 @@ export const skills: SkillGroup[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: '2018-2023',
+    date: '2018-2024',
     school: 'Georgia Institute of Technology',
     location: 'Atlanta, GA',
     title: 'M.S. in Computer Science',
@@ -155,17 +155,32 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'Jan 2024 - Present',
+    school: 'Floor & Decor',
+    location: 'Atlanta, GA',
+    title: 'Senior Software Engineer II',
+    content: (
+      <ul>
+          <li>• Used Terraform for infrastructure as code practices, automating the provisioning and management of Azure Cloud Resources. This included creating new services as well as transitioning previously non-cloud services onto the cloud.</li>
+          <li>• Worked with Talend to automate ETL processes</li>
+          <li>• Leveraged Azure Databricks for large-scale data processing and data analysis on inventory to give reports on inventory in over 300 locations.</li>
+          <li>• Configured and managed automated data pipelines using Azure Data Factory for various data processing tasks.</li>
+          <li>• Designed and implemented APIs using Spring Boot</li>
+          <li>• Led deployments on services to production environments using Kubernetes, ensuring that resources are properly allocated for each deployment.</li>
+        </ul>
+    ),
+  },
+  {
     date: 'May 2022 - June 2023',
     school: 'T-Mobile',
     location: 'Atlanta, GA',
     title: 'Software Developer',
     content: (
       <ul>
-          <li>• Developed Splunk dashboards to display server requests, uptime status and test results.</li>
-          <li>• Used Spring Boot to develop APIs needed for business.</li>
-          <li>• Worked with Java to develop back-end REST service for applications.</li>
-          <li>• Used Kubernetes to automate the deployment of containers.</li>
-          <li>• Used AWS products such as RedShift, DynamoDB, EC2, S3 to build/run projects.</li>
+          <li>• Developed Splunk dashboards to display server requests, uptime statuses and test results. This dashboard notified teams if there were any problems ensuring they were taken care of.</li>
+          <li>• Designed and implemented APIs using Spring Boot based on business needs.</li>
+          <li>• Designed, developed, and deployed cloud based microservices in AWS</li>
+          <li>• Worked with large offshore development teams to ensure teams were aligned in development work.</li>
         </ul>
     ),
   },
@@ -176,15 +191,11 @@ export const experience: TimelineItem[] = [
     title: 'Research Scientist',
     content: (
         <ul>
-          <li>• Developed and maintained site using the JavaScript framework React.</li>
-          <li>• Used RESTful APIs to gather and display data from a variety of sources to display in a web application.</li>
-          <li>• Worked with NodeJS in order to develop a server-side web application.</li>
-          <li>• Used JWT and OAuth2 to implement user authentication/authorization.</li>
-          <li>• Set standards and developed for an AngularJS application using the test automation tool Protractor.</li>
-          <li>• Contributed to creating and executing software test plans to identify software problems and their causes.</li>
-          <li>• Worked with Java to develop back-end REST service for applications.</li>
-          <li>• Worked with Java and .NET back-ends for web applications.</li>
-          <li>• Maintained SQL databases by creating and modifying queries to meet customer needs.</li>
+          <li>• Set testing standards for a large AngularJS application using the test automation tools Protractor and Selenium</li>
+          <li>• Created python scripts to scrape data from various sources</li>
+          <li>• Created data visualizations using Tableau in order to demonstrate trends</li>
+          <li>• Developed features using NodeJS based on customer requests</li>
+          <li>• Traveled to locations where software was being used in order to get live feedback on how it could be improved.</li>
         </ul>
     ),
   },
